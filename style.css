@@ -1,0 +1,220 @@
+.cn-wrapper li {
+    position: absolute;
+    font-size: 1.5em;
+    width: 10em;
+    height: 10em;
+    transform-origin: 100% 100%;
+    overflow: hidden;
+    left: 50%;
+    top: 20%;
+    margin-top: -1.3em;
+    margin-left: -10em;
+}
+
+.header {
+    position: absolute;
+    font-size: 2em;
+    left: 45%;
+}
+
+.bottom {
+    position: absolute;
+    left: 37%;
+    top: 80%;
+}
+
+.cn-wrapper li a {
+    display: block;
+    font-size: 1.18em;
+    height: 14.5em;
+    width: 14.5em;
+    position: absolute;
+    bottom: -7.25em;
+    right: -7.25em;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    /*padding-top: 1.8em;*/
+    text-align: center;
+    transform: skew(-80.27deg) rotate(-85deg) scale(1);
+}
+
+.cn-wrapper li a span {
+    /*font-size: 0.5em;*/
+    /*opacity: 0.7;*/
+}
+
+/* for a central angle x, the list items must be skewed by 90-x degrees in our case x=40deg so skew angle is 50deg items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
+
+
+.cn-wrapper li:first-child {
+    transform: rotate(0deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(2) {
+    transform: rotate(9.73deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(3) {
+    transform: rotate(19.46deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(4) {
+    transform: rotate(29.19deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(5) {
+    transform: rotate(38.92deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(6) {
+    transform: rotate(48.65deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(7) {
+    transform: rotate(58.38deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(8) {
+    transform: rotate(68.11deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(9) {
+    transform: rotate(77.84deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(10) {
+    transform: rotate(87.57deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(11) {
+    transform: rotate(97.3deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(12) {
+    transform: rotate(107.03deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(13) {
+    transform: rotate(116.76deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(14) {
+    transform: rotate(126.49deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(15) {
+    transform: rotate(136.22deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(16) {
+    transform: rotate(145.95deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(17) {
+    transform: rotate(155.7deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(18) {
+    transform: rotate(165.43deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(19) {
+    transform: rotate(175.16deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(20) {
+    transform: rotate(184.89deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(21) {
+    transform: rotate(194.62deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(22) {
+    transform: rotate(204.35deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(23) {
+    transform: rotate(214.06deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(24) {
+    transform: rotate(223.79deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(25) {
+    transform: rotate(233.52deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(26) {
+    transform: rotate(243.25deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(27) {
+    transform: rotate(252.98deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(28) {
+    transform: rotate(262.71deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(29) {
+    transform: rotate(272.44deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(30) {
+    transform: rotate(282.17deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(31) {
+    transform: rotate(291.9deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(32) {
+    transform: rotate(301.63deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(33) {
+    transform: rotate(311.36deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(34) {
+    transform: rotate(321.09deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(35) {
+    transform: rotate(330.82deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(36) {
+    transform: rotate(340.55deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(37) {
+    transform: rotate(350.28deg) skew(80.27deg);
+}
+
+.cn-wrapper li:nth-child(odd) a {
+    /*
+    background-color: #a11313;
+    background-color: hsla(0, 88%, 63%, 1);
+     */
+    background-color: black;
+}
+
+.cn-wrapper li:nth-child(even) a {
+    /*
+    background-color: #a61414;
+    background-color: hsla(0, 88%, 65%, 1);
+     */
+    background-color: red;
+}
+
+#result, #balance {
+    width: 322px;
+}
+
+.button {
+    width: 100px;
+}
